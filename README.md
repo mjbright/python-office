@@ -28,3 +28,21 @@ It is an active project, for information refer to
 - The PyPi page: https://pypi.org/project/python-pptx/
 - The source code on Github: https://github.com/scanny/python-pptx
 - Some examples in the documentation QuickStart page: https://python-pptx.readthedocs.io/en/latest/user/quickstart.html
+
+### Python and Powerpoint Examples
+
+- [python-pptx-Quickstart/](python-pptx-Quickstart/): The python-pptx Quickstart examples (almost no changes)
+
+### Using Python under Windows
+- [*"Automating PowerPoint With Python"*](http://www.s-anand.net/blog/automating-powerpoint-with-python/)
+
+## PDF output
+
+These libraries do not support saving to PDF format, though there may be ways to perform this task using Windows utlilies.
+
+If you have LibreOffice/OpenOffice installed you may be able to use unoconv.
+
+See:
+- [*"StackOverflow discussion"*](https://stackoverflow.com/questions/31487478/how-to-convert-a-pptx-to-pdf-using-python))
+- [*"Unoconv repository"*](https://github.com/dagwieers/unoconv)
+
