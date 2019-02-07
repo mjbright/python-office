@@ -13,6 +13,10 @@ For information about processing Excel files using Python refer to
 
 **NOTE**: For invoking Python from within Excel you may want to look at [xlwings](https://www.xlwings.org/), also an Open Source project (on [github](https://github.com/ZoomerAnalytics/xlwings).  It runs on Windows or macOS, but not on Linux.
 
+### Python and Excel Examples
+
+- [xlrd-Excel-2-HTMlTable](xlrd-Excel-2-HTMlTable): Example of xlrd use - converts each worksheet into an HTML table
+
 ## Python and Powerpoint
 
 The python-pptx module allows to create Powerpoint files from Python.
