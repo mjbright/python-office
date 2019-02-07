@@ -6,11 +6,15 @@ xls2html.py is a simple script based on the xlrd module which will create an HTM
 ## Coloured tables from .xls files
 It also attempts to colour cells as per the original Excel Workbook.
 
-Note: this can only be done on .xls files as formatting_info is only implemented by xlrd for .xls files.
+**Note**: this can only be done on .xls files as formatting_info is only implemented by xlrd for .xls files.
 
 Colour mapping is not correct, but you can modify the style rules in the resulting HTML to get the correct colours.
 
 If you have an .xlsx file and you wish to convert with colour you will first need to "Save As" in Excel choosing the older "*Excel 97-2003*" .xls format.
+
+**Note**: For informaton about Browser/HTML colour mappings refer to:
+- https://www.w3schools.com/colors/colors_names.asp
+- https://www.tutorialspoint.com/html/html_colors.htm
 
 ## Creating HTML tables from Excel
 
