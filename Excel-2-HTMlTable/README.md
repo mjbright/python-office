@@ -29,21 +29,7 @@ In case of .xls, colour processing will be performed and 2 more HTML files will 
 
 ### TABLE1:
 
-<STYLE>
-.cellstyle57_9 {
-  background-color: #339966;
-  color: #ffffff;
-}
-.cellstyle64_8 {
-  background-color: #ffffff;
-  color: #000000;
-}
-.cellstyle43_8 {
-  background-color: #ffff99;
-  color: #000000;
-}
-</STYLE>
-<h1>Sheet: TABLE1</h1> <table> <tbody> <tr>
+<table> <tbody> <tr>
   <th class='cellstyle57_9'></th>  <th class='cellstyle57_9'>Heading1</th>  <th class='cellstyle57_9'>Heading2</th>  <th class='cellstyle57_9'>Heading3</th>  <th class='cellstyle57_9'>Heading4</th>
 </tr>
 <tr>
@@ -66,32 +52,7 @@ In case of .xls, colour processing will be performed and 2 more HTML files will 
 
 ### TABLE2:
 
-
-<STYLE>
-.cellstyle57_9 {
-  background-color: #339966;
-  color: #ffffff;
-}
-.cellstyle64_8 {
-  background-color: #ffffff;
-  color: #000000;
-}
-.cellstyle43_8 {
-  background-color: #ffff99;
-  color: #000000;
-}
-.cellstyle62_9 {
-  background-color: #333399;
-  color: #ffffff;
-}
-.cellstyle49_8 {
-  background-color: #33cccc;
-  color: #000000;
-}
-</STYLE>
-
- </tbody> </table>
-<h1>Sheet: TABLE2</h1> <table> <tbody> <tr>
+<table> <tbody> <tr>
   <th class='cellstyle62_9'>TABLE2</th>  <th class='cellstyle62_9'>Heading1</th>  <th class='cellstyle62_9'>Heading2</th>  <th class='cellstyle62_9'>Heading3</th>  <th class='cellstyle62_9'>Heading4</th>
 </tr>
 <tr>
@@ -114,29 +75,6 @@ In case of .xls, colour processing will be performed and 2 more HTML files will 
 
 ### COLORS.html:
 
-<STYLE>
-.cellstyle57_9 {
-  background-color: #339966;
-  color: #ffffff;
-}
-.cellstyle64_8 {
-  background-color: #ffffff;
-  color: #000000;
-}
-.cellstyle43_8 {
-  background-color: #ffff99;
-  color: #000000;
-}
-.cellstyle62_9 {
-  background-color: #333399;
-  color: #ffffff;
-}
-.cellstyle49_8 {
-  background-color: #33cccc;
-  color: #000000;
-}
-</STYLE>
-
 <table> <tbody> <tr><td> cellstyle57_9: </td><td class='cellstyle57_9'> {  background-color: #339966;  color: #ffffff;} </td></tr>
 <tr><td> cellstyle64_8: </td><td class='cellstyle64_8'> {  background-color: #ffffff;  color: #000000;} </td></tr>
 <tr><td> cellstyle43_8: </td><td class='cellstyle43_8'> {  background-color: #ffff99;  color: #000000;} </td></tr>
@@ -147,7 +85,8 @@ In case of .xls, colour processing will be performed and 2 more HTML files will 
 
 ### COLORS_INDEX.html:
 
-<table> <tbody> <tr><td> 0: </td><td style='background-color: #000000; color: #ffffff;'> (0, 0, 0) == background-color: #000000; color: #ffffff; </td></tr>
+<table> <tbody>
+<tr><td> 0: </td><td style='background-color: #000000; color: #ffffff;'> (0, 0, 0) == background-color: #000000; color: #ffffff; </td></tr>
 <tr><td> 1: </td><td style='background-color: #ffffff; color: #000000;'> (255, 255, 255) == background-color: #ffffff; color: #000000; </td></tr>
 <tr><td> 2: </td><td style='background-color: #ff0000; color: #ffffff;'> (255, 0, 0) == background-color: #ff0000; color: #ffffff; </td></tr>
 <tr><td> 3: </td><td style='background-color: #00ff00; color: #ffffff;'> (0, 255, 0) == background-color: #00ff00; color: #ffffff; </td></tr>
@@ -215,5 +154,5 @@ In case of .xls, colour processing will be performed and 2 more HTML files will 
 <tr><td> 65: </td><td style='background-color: #ffffff; color: #000000;'> None == background-color: #ffffff; color: #000000; </td></tr>
 <tr><td> 81: </td><td style='background-color: #ffffff; color: #000000;'> None == background-color: #ffffff; color: #000000; </td></tr>
 <tr><td> 32767: </td><td style='background-color: #ffffff; color: #000000;'> None == background-color: #ffffff; color: #000000; </td></tr>
- </tbody> </table>
+</tbody> </table>
 
