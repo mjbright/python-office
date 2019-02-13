@@ -31,12 +31,12 @@
   <td>img tag:<img width=100 src='https://www.shareicon.net/download/2015/05/18/40183_text_512x512.png'/></td>
   <td>
 	  <svg height="30" width="200">
-		    <text x="0" y="15" fill="red"> SVG is not rendered - only element text is shown on github</text>
+		    <text x="0" y="15" fill="red"> Embedded SVG is not rendered - only element text is shown on github</text>
 	  </svg>
 	</td> <td>
 	  <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
 		    <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
-			        <text x="0" y="15" fill="red" text-decoration="underline"> SVG is not rendered  - only element text (a link) is shown on github </text>
+			        <text x="0" y="15" fill="red" text-decoration="underline"> Embedded SVG is not rendered  - only element text (a link) is shown on github </text>
 				  </a>
 	  </svg>
   </td>
@@ -59,8 +59,8 @@
 	  <img src='images/memDistrib-jemalloc-4.0.3.svg'/>
 	</td> <td>
 	  <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
-		    <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
-			        <text x="0" y="15" fill="red" text-decoration="underline"> SVG is not rendered  - only element text (a link) is shown on github </text>
+	      <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
+		<text x="0" y="15" fill="red" text-decoration="underline"> Embedded SVG is not rendered  - only element text (a link) is shown on github </text>
 				  </a>
 	  </svg>
   </td>
