@@ -28,25 +28,17 @@
   <th></th>  <th></th>  <th></th> 
 </tr>
 <tr>
-  <td>img tag:<img width=100 src='https://www.shareicon.net/download/2015/05/18/40183_text_512x512.png'/></td>
+  <td>img tag: (png)<img width=100 src='https://www.shareicon.net/download/2015/05/18/40183_text_512x512.png'/></td>
+  <td>img tag: (svg)<img width=100 src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SVG_logo.svg/330px-SVG_logo.svg.png'/></td>
   <td>
-	  <svg height="30" width="200">
-		    <text x="0" y="15" fill="red"> Embedded SVG is not rendered - only element text is shown on github</text>
-	  </svg>
-	</td> <td>
-	  <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
-		    <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
-			        <text x="0" y="15" fill="red" text-decoration="underline"> Embedded SVG is not rendered  - only element text (a link) is shown on github </text>
-				  </a>
-	  </svg>
+      <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
+	    <text x="0" y="15" fill="red" text-decoration="underline"> Embedded SVG is not rendered  - only element text (a link) is shown on github </text>
+	    </a>
+      </svg>
   </td>
 </tr>
-<tr>
-  <td><img src='./images/magick_AWS+Lambda+Python_24fs_%23ccffcc_%23000000.png'/></td>
-  <td><img src='./images/magick_Using+aws+cli_24fs_%23ccffcc_%23000000.png'/></td>
-  <td><img src='./images/magick_Using+Chalice_24fs_%23339966_%23ffffff.png'/></td>
-</tr>
- </tbody> </table>
+</tbody> </table>
 
 ### Linking to SVG - not allowed (by github.com sanitizer):
 
