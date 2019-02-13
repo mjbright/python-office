@@ -6,5 +6,7 @@
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
 >
-	    <text x="0" y="150" background="cyan" fill="blue"> Simple SVG "hello world" </text>
+	  <rect id="rec" x="100" y="100" width="300" height="100" style="fill:cyan" />
+  <text id="TextElement" x="150" y="150" style="font-family:Verdana;font-size:24;fill:#0000ff"> Simple coloured SVG "hello world"
+    </text> 
 </svg>
